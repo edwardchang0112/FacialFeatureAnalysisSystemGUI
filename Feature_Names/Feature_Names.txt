@@ -1,0 +1,9 @@
+Date
+Temperature_current
+Humidity_current
+Temperature_next
+Humidity_next
+Avg_hydration
+Avg_oxygen
+Use_skincare
+Bias
