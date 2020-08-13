@@ -1,0 +1,8 @@
+pandas
+numpy
+xgboost
+sklearn
+shap
+matplotlib
+pathlib
+py2app
