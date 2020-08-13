@@ -166,7 +166,6 @@ class Ui_MainWindow(object):
         self.label_6.repaint()
         self.listWidget.clear()  # initial item list in listWidget
         cwd = os.getcwd()  # get current parent directory path
-        # cwd = cwd+'/P2_Use_Skincare/Use_Skincare/'
         print("cwd = ", cwd)
 
         files, ok1 = QFileDialog.getOpenFileNames(None, "Choose Multiple files", cwd, r'Excel Files(*.xlsx)')
@@ -178,10 +177,7 @@ class Ui_MainWindow(object):
             print(file)
         print(files, ok1)
         self.DataSet_FileList = files
-        # slm = QtCore.QStringListModel()
         self.listWidget.addItems(files)
-        # self.listWidget.itemClicked.connect(self.listwidgetclicked)
-        # self.listView.selectionModel().currentChanged.connect(self.on_treeView_clicked)
         self.label_6.setText("Total Numbers of Files: " + str(len(files)))
         self.label_6.repaint()
 
@@ -301,7 +297,7 @@ class Ui_MainWindow(object):
         cwd_NM = cwd + '/Feature_Names/'
         file_name = "Feature_Names"
         features_list = readTXTFile(cwd_NM + file_name)
-        print("features_list = ", features_list)
+        #print("features_list = ", features_list)
         #choose_features = self.listWidget_6.currentItem()
         choose_features = []
         for index in range(self.listWidget_6.count()):
