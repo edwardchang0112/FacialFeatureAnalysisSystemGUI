@@ -20,6 +20,6 @@ py2app
 ### Feature analysis (All shows you a figure)
 1. Overall features analysis: shows you how each feature influence the target
 2. Cross feature analysis: shows you cross influence between every 2 inputs
-3. Two-Feature analysis: shows you the influence of 2 features that you choosed on target
+3. Two-Feature analysis: shows you the influence of 2 features(write in "Feature_Names" directory) that you choosed on target
 
 #### For this project we facous on the facial related data(such as hydration, oxygen, etc.) and weather data(such as temperature and humidity), so you can try to modify the features to meet your requirement and the applications.
