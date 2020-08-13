@@ -14,6 +14,9 @@ py2app
 ## Steps
 Run AI_Test_Platform_and_Feature_Analysis_GUI.py first to pop out the GUI
 *All file pathes need to be set again to fit your machine's setting
+
+![image](https://github.com/edwardchang0112/FacialFeatureAnalysisSystemGUI/blob/master/GUI_Fig.png)
+
 ### Training and validation
 1. Data Set Selection: Choose the batch of dataset.
 2. Model Selection: You can add you model to "New_Models" directory first, then it can be browsed at this step.
